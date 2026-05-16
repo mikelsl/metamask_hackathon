@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-05-13T11:49:44.368Z",
+  "mode": "dry-run",
+  "requestedChains": [
+    "84532",
+    "421614",
+    "11155420"
+  ],
+  "contracts": {
+    "84532": {
+      "chainId": "84532",
+      "name": "Base Sepolia",
+      "rpcUrl": "https://sepolia.base.org",
+      "vaultEnv": "BASE_SEPOLIA_VAULT_ADDRESS",
+      "existingAddress": "0x5677F20bD56538F20051Fe8Bf002e6D06780d85c",
+      "existingHasCode": true,
+      "action": "reuse-existing",
+      "address": "0x5677F20bD56538F20051Fe8Bf002e6D06780d85c"
+    },
+    "421614": {
+      "chainId": "421614",
+      "name": "Arbitrum Sepolia",
+      "rpcUrl": "https://sepolia-rollup.arbitrum.io/rpc",
+      "vaultEnv": "ARBITRUM_SEPOLIA_VAULT_ADDRESS",
+      "existingAddress": "0x5677F20bD56538F20051Fe8Bf002e6D06780d85c",
+      "existingHasCode": true,
+      "action": "reuse-existing",
+      "address": "0x5677F20bD56538F20051Fe8Bf002e6D06780d85c"
+    },
+    "11155420": {
+      "chainId": "11155420",
+      "name": "Optimism Sepolia",
+      "rpcUrl": "https://sepolia.optimism.io",
+      "vaultEnv": "OPTIMISM_SEPOLIA_VAULT_ADDRESS",
+      "existingAddress": "0x5677F20bD56538F20051Fe8Bf002e6D06780d85c",
+      "existingHasCode": true,
+      "action": "reuse-existing",
+      "address": "0x5677F20bD56538F20051Fe8Bf002e6D06780d85c"
+    }
+  }
+}

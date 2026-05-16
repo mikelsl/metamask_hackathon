@@ -1,0 +1,50 @@
+# dependencies
+node_modules/
+*/node_modules/
+
+# env / secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*credentials*
+
+# build / runtime
+dist/
+*/dist/
+.runtime/
+*/.runtime/
+.tmp/
+*/.tmp/
+.DS_Store
+
+# generated demo artifacts / local state
+artifacts/
+*/artifacts/
+RUNSTATE.md
+*/RUNSTATE.md
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# raw recordings / intermediate media
+*.mov
+*.mkv
+*raw*.mp4
+*raw*.mp3
+*sample*.mp3
+
+# submission videos are intentionally handled separately; add explicitly only after review
+submission-assets/
+
+# generated dashboard data may include local artifact paths
+mindgames-arena/web/data/*.json
+!mindgames-arena/web/data/.gitkeep
+GITHUB_UPLOAD_MANIFEST.txt
+SECURITY_REVIEW.md
+GITHUB_UPLOAD_CHECKLIST.md
