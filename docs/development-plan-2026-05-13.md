@@ -60,7 +60,7 @@ Preferred language:
 ## MVP Scope
 
 ### Must Have
-- Reuse existing `hackathon/turing/mindgames-arena` as implementation base, but create a MetaMask-specific fork/surface.
+- Reuse the existing local MindGames Arena implementation as the implementation base, but create a MetaMask-specific fork/surface.
 - Generalize branding from Werewolf-only to **MindGames module framework**.
 - Implement first game module: **8-player social deduction arena**.
 - Role distribution: `2 wolves + 1 seer + 5 villagers`.
@@ -173,7 +173,7 @@ Witch is roadmap, modeled as limited-use delegated capabilities:
 - Create `hackathon/metamask` workspace.
 - Establish RUNSTATE.
 - Save development plan.
-- Link prior sources: `hackathon/turing`, `hackathon/0g`.
+- Link prior local MindGames sources only when needed for private development context; keep the public submission focused on the MetaMask fork.
 
 ### Phase 1 — Product refactor / naming
 - Fork or overlay the prior MindGames implementation into the MetaMask workspace.
