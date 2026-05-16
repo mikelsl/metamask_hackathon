@@ -39,8 +39,10 @@ yarn-error.log*
 *raw*.mp3
 *sample*.mp3
 
-# submission videos are intentionally handled separately; add explicitly only after review
-submission-assets/
+# submission assets: ignore generated/intermediate assets by default; publish only selected final video
+submission-assets/*
+!submission-assets/presentation-video-2026-05-14-v2/
+!submission-assets/presentation-video-2026-05-14-v2/Delegated-MindGames-Arena-Presentation-v2-2026-05-14.mp4
 
 # generated dashboard data may include local artifact paths
 mindgames-arena/web/data/*.json
